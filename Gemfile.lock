@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    erik_server (0.0.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.6)
+  erik_server!
+  rake
