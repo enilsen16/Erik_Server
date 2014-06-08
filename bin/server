@@ -6,7 +6,7 @@ server = TCPServer.new 1337
 
 loop do
   client = server.accept
-  request = clients.gets
+  request = client.gets
   verb, path,protocol = request.spilt(" ")
   path ="." + path
 
