@@ -1,6 +1,7 @@
+[![Gem Version](https://badge.fury.io/rb/erik_server.png)](http://badge.fury.io/rb/erik_server)
 # Server
 
-TODO: Write a gem description
+A little ruby gem that acts as a basic web server
 
 ## Installation
 
@@ -18,12 +19,5 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Type erik_server in the command line to start the web server then navigate to localhost and the correct port.
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/server/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
