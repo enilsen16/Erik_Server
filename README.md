@@ -7,7 +7,7 @@ A little ruby gem that acts as a basic web server
 
 Add this line to your application's Gemfile:
 
-    gem 'server'
+    gem 'erik_server'
 
 And then execute:
 
@@ -15,9 +15,14 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install server
+    $ gem install erik_server
 
 ## Usage
 
-Type erik_server in the command line to start the web server then navigate to localhost and the correct port.
+After bundling go to you terminal and type:
 
+      erik_server
+
+That should start the server, navigate to:
+
+     http://localhost:1337
