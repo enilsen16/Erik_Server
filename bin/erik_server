@@ -7,7 +7,7 @@ server = TCPServer.new 1337
 loop do
   client = server.accept
   request = client.gets
-  verb, path,protocol = request.spilt(" ")
+  verb, path, protocol = request.split(" ")
   path ="." + path
 
   if File.file?(path)
